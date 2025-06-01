@@ -14,7 +14,7 @@ quite a lot of time :) and it will use many other libraries not mentioned here l
 
 # Other requirements
 Some libraries have not been included so you would have to set it up on your own:-
-Assimp and glm
+>Assimp and OpenGL Mathematics(glm).
 You can go head and clone them from their respective repository and put the name of the folders as "assimpLib" and "glmLib" respectively otherwise it won't work.
 
 Next think is that this project is made on Visual Studio 2019 so you would have to install it first. Other versions may create problems.
