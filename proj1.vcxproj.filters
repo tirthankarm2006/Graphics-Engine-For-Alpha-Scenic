@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Shaders">
+      <UniqueIdentifier>{5b025e9f-3ecf-4e21-b4d7-72765aeb9638}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files\imguiHeaders">
+      <UniqueIdentifier>{7143fd36-3974-41d8-b152-dc90f44ebbce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Source Files\imguiSources">
+      <UniqueIdentifier>{b9d9a41c-58de-4d3c-91b5-f3072406e276}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="glad.c">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main2.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imguiLib\imgui\imgui_tables.cpp">
+      <Filter>Resource Files\Source Files\imguiSources</Filter>
+    </ClCompile>
+    <ClCompile Include="imguiLib\imgui\imgui_widgets.cpp">
+      <Filter>Resource Files\Source Files\imguiSources</Filter>
+    </ClCompile>
+    <ClCompile Include="imguiLib\imgui\imgui_impl_opengl3.cpp">
+      <Filter>Resource Files\Source Files\imguiSources</Filter>
+    </ClCompile>
+    <ClCompile Include="imguiLib\imgui\imgui.cpp">
+      <Filter>Resource Files\Source Files\imguiSources</Filter>
+    </ClCompile>
+    <ClCompile Include="imguiLib\imgui\imgui_demo.cpp">
+      <Filter>Resource Files\Source Files\imguiSources</Filter>
+    </ClCompile>
+    <ClCompile Include="imguiLib\imgui\imgui_draw.cpp">
+      <Filter>Resource Files\Source Files\imguiSources</Filter>
+    </ClCompile>
+    <ClCompile Include="imguiLib\imgui\imgui_impl_glfw.cpp">
+      <Filter>Resource Files\Source Files\imguiSources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ShaderHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main2.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="meshClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="imguiLib\imgui\imconfig.h">
+      <Filter>Header Files\imguiHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="imguiLib\imgui\imgui.h">
+      <Filter>Header Files\imguiHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="imguiLib\imgui\imgui_impl_glfw.h">
+      <Filter>Header Files\imguiHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="imguiLib\imgui\imgui_internal.h">
+      <Filter>Header Files\imguiHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="imguiLib\imgui\imstb_rectpack.h">
+      <Filter>Header Files\imguiHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="imguiLib\imgui\imstb_textedit.h">
+      <Filter>Header Files\imguiHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="imguiLib\imgui\imstb_truetype.h">
+      <Filter>Header Files\imguiHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="imguiLib\imgui\imgui_impl_opengl3.h">
+      <Filter>Header Files\imguiHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="imguiLib\imgui\imgui_impl_opengl3_loader.h">
+      <Filter>Header Files\imguiHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="newModelClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="VertexShaderCode.vs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="FragmentShaderCode.fsc">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="cubeMap.vs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="cubeMap.fsc">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="lightSourceContainer.vs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="lightSource.fsc">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="lightSourceContainer.fsc">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="3DModelFS_Lighting.fsc">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="3DModelFS.fsc">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>

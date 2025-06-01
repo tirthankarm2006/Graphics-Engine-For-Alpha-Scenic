@@ -1,0 +1,12 @@
+#Directories to be excluded
+/.vs
+/Resources/3Dmodels/MasterChief1/
+/Resources/3Dmodels/MasterChief2/
+/Resources/3Dmodels/MasterChief3/
+/Resources/3Dmodels/Milenia(EldenRing)/
+/x64/Debug/bin-int/
+/AssimpLib/
+/glmLib/
+
+#Files to be excluded
+*.user
