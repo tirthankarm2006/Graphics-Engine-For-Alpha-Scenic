@@ -9,6 +9,9 @@ imgui for the GUI
 I am still learning so some of the codes like the model.h uses the exact same code form learnopengl.com though I have optimized the method in a new model class ("newModelClass.h") that
 use std::thread for parallel texture loading and for the same reason this engine does not use all concepts from 3D Graphics Programming like post processing, PBR, animations.
 
+About the game engine I am making, Alpha Scenic, I have not written any code there as I have to first grasp the entire 3D Graphics and how a game engine pipeline works so it is going to take 
+quite a lot of time :)
+
 # Other requirements
 Some libraries have not been included so you would have to set it up on your own:-
 Assimp and glm
