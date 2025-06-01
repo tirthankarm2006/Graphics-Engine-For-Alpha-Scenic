@@ -17,7 +17,7 @@ Some libraries have not been included so you would have to set it up on your own
 Assimp and glm
 You can go head and clone them from their respective repository and put the name of the folders as "assimpLib" and "glmLib" respectively otherwise it won't work.
 
-Next think is that this project is made on Visual Studio 2019. Other versions may create problems.
+Next think is that this project is made on Visual Studio 2019 so you would have to install it first. Other versions may create problems.
 
 # Few things when using
 > You can load your own 3D model but make sure to properly make an object in the main file and that the textures are in the right folder otherwise Assimp won't understand.
