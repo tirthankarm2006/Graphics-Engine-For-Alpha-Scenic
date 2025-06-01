@@ -3,7 +3,7 @@ This will be the design of the Graphics engine in Alpha Scenic, check for anothe
 Uses OpenGL(modern OpenGL/Glad) for the rendering, 
 GLFW for window management, OpenGL Mathematics(glm),
 Assimp for model/texture loading from .obj objects, 
-Stbi_Image with std::thread for faster parallel texture loading, 
+stb_image with std::thread for faster parallel texture loading, 
 imgui for the GUI
 
 I am still learning so some of the codes like the model.h uses the exact same code form learnopengl.com though I have optimized the method in a new model class ("newModelClass.h") that
