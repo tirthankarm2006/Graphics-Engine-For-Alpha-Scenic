@@ -170,10 +170,19 @@ private:
 			//extracting the diffuse textures
 			vector<Texture>diffuseMaps = loadMaterialTextures(material, aiTextureType_DIFFUSE, "diffuse");
 			textures.insert(textures.end(), diffuseMaps.begin(), diffuseMaps.end());
+			std::cout << "Diffuse textures are "<<endl;
+			for (auto& tex : textures)
+				std::cout << tex.path << endl;
 
 			//extracting the specular textures
 			vector<Texture>specularMaps = loadMaterialTextures(material, aiTextureType_SPECULAR, "specular");
 			textures.insert(textures.end(), specularMaps.begin(), specularMaps.end());
+
+			std::cout << "Specular textures are " << endl;
+			for (auto& tex : textures) {
+				if (tex.type == "specular")
+					std::cout << tex.path << endl;
+			}
 		}
 		return Mesh(vertices, textures, indices);
 	}
