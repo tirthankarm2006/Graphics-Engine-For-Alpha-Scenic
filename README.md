@@ -10,7 +10,7 @@ I am still learning so some of the codes like the model.h uses the exact same co
 use std::thread for parallel texture loading and for the same reason this engine does not use all concepts from 3D Graphics Programming like post processing, PBR, animations.
 
 About the game engine I am making, Alpha Scenic, I have not written any code there as I have to first grasp the entire 3D Graphics and how a game engine pipeline works so it is going to take 
-quite a lot of time :)
+quite a lot of time :) and it will use many other libraries not mentioned here like spdlog and I will have to first learn all of these libraries to be able to fully develop the game engine.
 
 # Other requirements
 Some libraries have not been included so you would have to set it up on your own:-
