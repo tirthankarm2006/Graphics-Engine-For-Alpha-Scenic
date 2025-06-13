@@ -74,9 +74,9 @@ int main()
 	Shader shaderFor3DModel("lightSourceContainer.vs", "3DModelFS_Lighting.fsc");
 	//Shader depthTestShader("lightSourceContainer.vs", "depthTest.fsc");
 
-	Model ourModel("Resources/3Dmodels/backpack/backpack.obj");
+	//Model ourModel("Resources/3Dmodels/backpack/backpack.obj");
 	//Model ourModel("Resources/3Dmodels/GrozaGun/groza2.obj");
-	//Model ourModel("Resources/3Dmodels/MasterChief1/masterChiefModel.glb");
+	Model ourModel("Resources/3Dmodels/MasterChief1/masterChiefModel.glb");
 	//Model ourModel("Resources/3Dmodels/MasterChief2/masterChiefModel2.glb");
 	//Model ourModel("Resources/3Dmodels/MasterChief3/Master Chief/Master Chief.fbx");
 	//Model ourModel("Resources/3Dmodels/Milenia(EldenRing)/Malenia.blend");
